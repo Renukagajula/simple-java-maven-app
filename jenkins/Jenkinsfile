@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'mvn -B -DskipTests clean package'
-                echo 'this is the maven job'
+                echo 'this is the maven job01'
             }
         }
         stage('Test') {
